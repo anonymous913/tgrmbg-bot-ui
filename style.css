@@ -1,0 +1,88 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFF8E0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    background-color: #FFF8E0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Profile Section */
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profile h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    color: #777;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+/* Links Section */
+.links a {
+    display: block;
+    /* background-color: #0073e6; */
+    background-color: coral;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+    /* background-color: #005bb5; */
+    background-color: orangered;
+    color: wheat;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .profile img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile h1 {
+        font-size: 1.5em;
+    }
+
+    .links a {
+        padding: 12px;
+        font-size: 0.9em;
+    }
+}
