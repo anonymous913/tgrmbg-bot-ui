@@ -9,7 +9,6 @@
     <link rel="shortcut icon" type="image/jpg" href="web-icon.png">
 </head>
 
-import { inject } from "@vercel/analytics"
 
 <body>
     <div class="container">
@@ -49,4 +48,8 @@ import { inject } from "@vercel/analytics"
  <!-- 5th  -->
  <script type="text/javascript" src="//counter.websiteout.com/js/2/3/1/1"></script>
 
+ <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </html>
